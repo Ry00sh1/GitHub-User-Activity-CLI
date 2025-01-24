@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from github_api_request import api_request
+from github_activity.github_api_request import api_request
 
 def main() -> None:
     parser = ArgumentParser(description="CLI GitHub User Activity.")
